@@ -61,8 +61,6 @@ else
 	td = td - ((20 * td) / 100)
 end
 
-puts "==== td #{td}"
-
 date_old = Date.parse(uto)
 date_now = Date.today
 dt_aux = (date_now - date_old)
